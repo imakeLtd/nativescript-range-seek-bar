@@ -119,7 +119,7 @@ export class RangeSeekBar extends RangeSeekBarBase {
 
 @ObjCClass(TTRangeSliderDelegate)
 @NativeClass()
-export class TTRangeSliderDelegateImpl extends NSObject implements TTRangeSliderDelegate {
+class TTRangeSliderDelegateImpl extends NSObject implements TTRangeSliderDelegate {
     public owner: WeakRef<RangeSeekBar>;
 
     public static initWithOwner(owner: WeakRef<RangeSeekBar>): TTRangeSliderDelegateImpl {
@@ -156,3 +156,4 @@ export class TTRangeSliderDelegateImpl extends NSObject implements TTRangeSlider
         }
     }
 }
+export { TTRangeSliderDelegateImpl }
