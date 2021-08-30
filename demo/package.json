@@ -1,7 +1,7 @@
 {
   "main": "main.js",
   "dependencies": {
-    "nativescript-range-seek-bar": "../src",
+    "@imakeltd/range-seek-bar": "../src",
     "@nativescript/theme": "^2.3.3",
     "@nativescript/core": "7.0.0"
   },

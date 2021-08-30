@@ -169,6 +169,7 @@ function initRangeSeekbarChangeListener() {
     if (RangeSeekbarChangeListener) {
         return;
     }
+
     @Interfaces([com.crystal.crystalrangeseekbar.interfaces.OnRangeSeekbarChangeListener])
     @NativeClass()
     class RangeSeekbarChangeListenerImpl extends java.lang.Object implements com.crystal.crystalrangeseekbar.interfaces.OnRangeSeekbarChangeListener {
@@ -192,6 +193,7 @@ function initRangeSeekbarChangeListener() {
             }
         }
     }
+
     RangeSeekbarChangeListener = RangeSeekbarChangeListenerImpl as any;
 }
 // RangeSeekbarChangeListener END
@@ -231,6 +233,7 @@ function initRangeSeekbarFinalValueListener() {
             }
         }
     }
+
     RangeSeekbarFinalValueListener = RangeSeekbarFinalValueListenerImpl as any;
 }
 // RangeSeekbarFinalValueListener END

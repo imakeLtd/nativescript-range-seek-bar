@@ -34,3 +34,4 @@ demo-ng/report/report.html
 demo-ng/report/stats.json
 *.metadata.json
 *.ngsummary.json
+src/imakeltd-range-seek-bar.tgz
