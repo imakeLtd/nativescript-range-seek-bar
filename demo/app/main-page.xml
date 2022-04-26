@@ -4,6 +4,14 @@
       <ActionBar title="Range Seek Bar"></ActionBar>
   </Page.actionBar>
   <StackLayout>
-      <rsb:RangeSeekBar class="range-seek-bar"/>
+      <rsb:RangeSeekBar class="range-seek-bar"
+        minValue="0"
+        maxValue="100"
+        minStartValue="0"
+        maxStartValue="10"
+        rangeSeekBarChanged="onBarChange"
+        rangeSeekBarFinalValue="onFinalValue"
+        class="rangeSeekBar"
+        />
   </StackLayout>
 </Page>
